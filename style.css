@@ -38,6 +38,17 @@ a {
 
 .top-section {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 60px 0;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+    flex-wrap: wrap;
+    max-width: 450px;
 }
 
 h1 {
@@ -53,11 +64,22 @@ h1 {
 button {
     background-color:#3882F6;
     color:#F9FAF8;
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .image {
     background-color: #a5a7aa;
     color:#F9FAF8;
+}
+
+.hero-text-image {
+    background-color: #a5a7aa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
 }
 
 .mid1-section {
