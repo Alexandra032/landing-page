@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    border: red solid 2px;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -84,20 +84,49 @@ button {
 
 .mid1-section {
     background-color: #F9FAF8;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.boxes-section {
+    display: flex;
+    color:#E5E7EB; 
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 5px;
+    padding: 20px;
 }
 
 h2 {
     color: #1F2937;
     font-size: 36px;
     font-weight: bold;
+    text-align: center;
 }
 
 .box {
-    color:#E5E7EB; 
+  width: 150px;
+  height: 150px;
+  background-color: #F9FAF8;
+  border: 3px solid #3882F6;
+  border-radius: 10px;
+
+
 }
 
 .mid2-section {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 20px;
+    align-items: center;
+}
+
+.mid2-section > * {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .quote {
@@ -110,6 +139,9 @@ h2 {
 h4 {
     color:#1F2937;
     font-weight: bold;
+    width: 750px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .bottom-section {
